@@ -1,0 +1,12 @@
+GET http://127.0.0.1:1411
+###
+POST http://127.0.0.1:1411
+Content-Type: application/json
+
+{
+    "name": "Abe",
+    "code": "05",
+    "character": "Cruelty"
+}
+###
+DELETE http://127.0.0.1:1411/Dubi
